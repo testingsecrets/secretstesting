@@ -1,0 +1,12 @@
+name: nothingmuch
+# This workflow is triggered on pushes to the repository.
+on: [push , pull_request]
+
+jobs:
+  build:
+    name: nothingtoseehere
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        shell: bash
+        run: echo "hello" 
